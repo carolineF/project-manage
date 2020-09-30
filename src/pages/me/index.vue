@@ -1,22 +1,23 @@
 <template>
-  <div>{{motto}}</div>
+  <div class="container">
+    测试
+  </div>
 </template>
 
 <script>
-
 export default {
-  data () {
+  data() {
     return {
-      motto: 'Hello miniprograme'
     }
   },
+  computed: {
 
-  components: {
   },
-
+  methods: {
+  }
 }
 </script>
 
 <style scoped>
-
+  
 </style>

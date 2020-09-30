@@ -1,8 +1,7 @@
 {
   "pages": [
     "pages/index/main",
-    "pages/logs/main",
-    "pages/counter/main"
+    "pages/me/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -14,7 +13,7 @@
     "color": "#999",
     "backgroundColor": "#fafafa",
     "selectedColor": "#333",
-    "borderStyle": "white",
+    "borderStyle": "white",  
 
     "list": [{
       "text": "首页",
@@ -22,10 +21,10 @@
       "iconPath": "static/tabs/home.png",
       "selectedIconPath": "static/tabs/home-active.png"
     }, {
-      "text": "订单",
-      "pagePath": "pages/logs/main",
-      "iconPath": "static/tabs/orders.png",
-      "selectedIconPath": "static/tabs/orders-active.png"
+      "text": "我的",
+      "pagePath": "pages/me/main",
+      "iconPath": "static/tabs/mine.png",
+      "selectedIconPath": "static/tabs/mine-active.png"
     }],
 
     "items": [{
@@ -34,10 +33,10 @@
       "icon": "static/tabs/home.png",
       "activeIcon": "static/tabs/home-active.png"
     }, {
-      "name": "订单",
-      "pagePath": "pages/logs/main",
-      "icon": "static/tabs/orders.png",
-      "activeIcon": "static/tabs/orders-active.png"
+      "name": "我的",
+      "pagePath": "pages/me/main",
+      "icon": "static/tabs/mine.png",
+      "activeIcon": "static/tabs/mine-active.png"
     }],
     "position": "bottom"
   }
