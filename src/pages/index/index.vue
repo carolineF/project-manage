@@ -1,5 +1,5 @@
 <template>
-  <div>{{motto}}</div>
+  <div class="title">{{motto}}</div>
 </template>
 
 <script>
@@ -17,6 +17,8 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="less" scoped>
+.title {
+  font-size: 15px;
+}
 </style>
